@@ -73,7 +73,7 @@ const t = (L) => {
         <div class="pass ghostcard"></div>
       </div>
     </div>
-    <span class="float f1">+1 ★</span><span class="float f2">+25 poin</span>
+    <span class="float f1">+1 ★</span><span class="float f2">${card.chip2}</span>
   </div>
 </div></section>
 
@@ -109,7 +109,7 @@ const t = (L) => {
   <h2>${pricing.h2}</h2><p class="lead c">${pricing.p}</p>
   <div class="plans">${pricing.plans
     .map(
-      (p) => `<article class="plan${p.highlight ? ' hl' : ''}${p.soon ? ' soon' : ''}"><h3>${p.name}</h3><p class="price">${p.price}<small>${p.per}</small></p>
+      (p) => `<article class="plan${p.highlight ? ' hl' : ''}${p.soon ? ' soon' : ''}"><h3>${p.name}</h3><p class="price">${p.price}<small>${p.per}</small></p>${p.sub ? `<p class="subprice">${p.sub}</p>` : ''}
       <ul>${p.feats.map((f) => `<li>${f}</li>`).join('')}</ul>
       ${p.soon ? `<span class="btn ghost disabled">${p.cta}</span>` : `<a class="btn" href="#contact">${p.cta}</a>`}</article>`
     )

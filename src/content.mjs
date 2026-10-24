@@ -21,7 +21,7 @@ export const locales = {
       cta2: 'Lihat cara kerja',
       note: 'Pilot terbatas di Indonesia · Siap dalam 10 menit',
     },
-    card: { name: 'Kopi Senja', stamps: '7 dari 10 stempel', next: '3 lagi untuk kopi gratis' },
+    card: { chip2: '+25 poin', name: 'Kopi Senja', stamps: '7 dari 10 stempel', next: '3 lagi untuk kopi gratis' },
     problem: {
       h2: 'Kartu fisik mudah hilang atau lupa dibawa.',
       p: 'Dengan Loyaa, kartu loyalitas ada di tempat yang selalu dibawa pelanggan: ponsel mereka. Anda tahu siapa yang kembali, dan mereka punya alasan untuk datang lagi.',
@@ -60,6 +60,13 @@ export const locales = {
       h2: 'Harga sederhana.',
       p: 'Tanpa biaya setup. Batalkan kapan saja.',
       plans: [
+        {
+          name: 'Starter',
+          price: 'Rp 149.000',
+          per: '/bulan',
+          feats: ['1 outlet, hingga 2 kasir', 'Hingga 300 pelanggan', 'Kartu Stempel', 'Apple Wallet, Google Wallet & web'],
+          cta: 'Mulai pilot',
+        },
         {
           name: 'Standalone',
           price: 'Rp 399.000',
@@ -114,7 +121,7 @@ export const locales = {
       cta2: 'See how it works',
       note: 'Limited pilot in Indonesia · Ready in 10 minutes',
     },
-    card: { name: 'Kopi Senja', stamps: '7 of 10 stamps', next: '3 more for a free coffee' },
+    card: { chip2: '+25 pts', name: 'Kopi Senja', stamps: '7 of 10 stamps', next: '3 more for a free coffee' },
     problem: {
       h2: 'Physical cards get lost or left at home.',
       p: 'With Loyaa the loyalty card lives where customers always are: their phone. You see who comes back, and they have a reason to return.',
@@ -153,6 +160,14 @@ export const locales = {
       h2: 'Simple pricing.',
       p: 'No setup fee. Cancel anytime.',
       plans: [
+        {
+          name: 'Starter',
+          price: 'Rp 149,000',
+          per: '/month',
+          sub: '≈ US$14/month',
+          feats: ['1 outlet, up to 2 cashiers', 'Up to 300 customers', 'Stamp Card', 'Apple Wallet, Google Wallet & web'],
+          cta: 'Join the pilot',
+        },
         {
           name: 'Standalone',
           price: 'Rp 399,000',
