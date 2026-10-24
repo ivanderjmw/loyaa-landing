@@ -64,7 +64,7 @@ export const locales = {
           name: 'Starter',
           price: 'Rp 149.000',
           per: '/bulan',
-          feats: ['1 outlet, hingga 2 kasir', 'Hingga 300 pelanggan', 'Kartu Stempel', 'Apple Wallet, Google Wallet & web'],
+          feats: ['Hingga 150 pelanggan', 'Outlet & kasir tanpa batas', 'Kartu Stempel & Sistem Poin', 'Apple Wallet, Google Wallet & web'],
           cta: 'Mulai pilot',
         },
         {
@@ -165,7 +165,7 @@ export const locales = {
           price: 'Rp 149,000',
           per: '/month',
           sub: '≈ US$14/month',
-          feats: ['1 outlet, up to 2 cashiers', 'Up to 300 customers', 'Stamp Card', 'Apple Wallet, Google Wallet & web'],
+          feats: ['Up to 150 customers', 'Unlimited outlets & cashiers', 'Stamp Card & Points System', 'Apple Wallet, Google Wallet & web'],
           cta: 'Join the pilot',
         },
         {
