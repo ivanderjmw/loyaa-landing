@@ -141,7 +141,7 @@ const t = (L) => {
 <footer class="foot"><div class="wrap foot-in">
   <a class="brand" href="${B}${L.path}">${logo}<span>loyaa</span></a>
   <p>${footer.rights}</p>
-  <nav><a href="${B}/privacy">${footer.privacy}</a><a href="${B}/terms">${footer.terms}</a><a href="mailto:hello@loyaa.me">${footer.contact}</a></nav>
+  <nav><a href="https://card.loyaa.me/legal/privacy?lang=${L.lang}">${footer.privacy}</a><a href="https://card.loyaa.me/legal/terms?lang=${L.lang}">${footer.terms}</a><a href="mailto:hello-loyaa@gmail.com">${footer.contact}</a></nav>
 </div></footer>
 <script>${js}</script>
 </body></html>`;
